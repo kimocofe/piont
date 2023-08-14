@@ -33,7 +33,7 @@ import requests
 kimo1.start()
 c = requests.session()
 
-bot_username = '@zmmbot'
+bot_username = '@EEObot'
 bot_usernamee = '@A_MAN9300BOT'
 bot_usernameee = '@MARKTEBOT'
 bot_usernameeee = '@xnsex21bot'
@@ -236,7 +236,7 @@ async def OwnerStart(event):
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
 
-                await kimo1.send_message(event.chat_id, f"تم الانتهاء من التجميع | KM")
+                await kimo1.send_message(event.chat_id, f"تم الانتهاء من التجميع KM")
 
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -259,7 +259,7 @@ async def OwnerStart(event):
                 await msg2[0].click(text='التالي')
                 chs += 1
                 await event.edit(f"القناة رقم {chs}")
-        await kimo1.send_message(event.chat_id, "تم الانتهاء من التجميع | KM")
+        await kimo1.send_message(event.chat_id, "تم الانتهاء من التجميع KM")
 
 @kimo1.on(events.NewMessage(outgoing=False, pattern='/K2'))
 async def OwnerStart(event):
@@ -303,7 +303,7 @@ async def OwnerStart(event):
 
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
 
-                await kimo1.send_message(event.chat_id, f"تم الانتهاء من التجميع | KM")
+                await kimo1.send_message(event.chat_id, f"تم الانتهاء من التجميع KM")
 
                 break
 
@@ -339,7 +339,7 @@ async def OwnerStart(event):
 
                 await event.edit(f"القناة رقم {chs}")
 
-        await kimo1.send_message(event.chat_id, "تم الانتهاء من التجميع | KM")
+        await kimo1.send_message(event.chat_id, "تم الانتهاء من التجميع KM")
 
 @kimo1.on(events.NewMessage(outgoing=False, pattern='/K3'))
 
@@ -384,7 +384,7 @@ async def OwnerStart(event):
 
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
 
-                await kimo1.send_message(event.chat_id, f"تم الانتهاء من التجميع | KM")
+                await kimo1.send_message(event.chat_id, f"تم الانتهاء من التجميع KM")
 
                 break
 
@@ -420,7 +420,7 @@ async def OwnerStart(event):
 
                 await event.edit(f"القناة رقم {chs}")
 
-        await kimo1.send_message(event.chat_id, "تم الانتهاء من التجميع | KM")
+        await kimo1.send_message(event.chat_id, "تم الانتهاء من التجميع KM")
 
 @kimo1.on(events.NewMessage(outgoing=False, pattern='/K4'))
 
@@ -465,7 +465,7 @@ async def OwnerStart(event):
 
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
 
-                await kimo1.send_message(event.chat_id, f"تم الانتهاء من التجميع | KM")
+                await kimo1.send_message(event.chat_id, f"تم الانتهاء من التجميع KM")
 
                 break
 
@@ -501,7 +501,7 @@ async def OwnerStart(event):
 
                 await event.edit(f"القناة رقم {chs}")
 
-        await kimo1.send_message(event.chat_id, "تم الانتهاء من التجميع | KM")
+        await kimo1.send_message(event.chat_id, "تم الانتهاء من التجميع KM")
 
 @kimo1.on(events.NewMessage(outgoing=True, pattern=".تجميع المليار"))
 
@@ -540,7 +540,7 @@ async def _(event):
 
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
 
-            await kimo1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | KM**")
+            await kimo1.send_message(event.chat_id, f"**تم الانتهاء من التجميع KM**")
 
             break
 
@@ -576,7 +576,7 @@ async def _(event):
 
             await event.edit(f"**القناة رقم {chs}**")
 
-    await kimo1.send_message(event.chat_id, "**تم الانتهاء من التجميع | KM**")
+    await kimo1.send_message(event.chat_id, "**تم الانتهاء من التجميع KM**")
 
 @kimo1.on(events.NewMessage(outgoing=True, pattern=".تجميع الجوكر"))
 
@@ -615,7 +615,7 @@ async def _(event):
 
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
 
-            await kimo1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | KM**")
+            await kimo1.send_message(event.chat_id, f"**تم الانتهاء من التجميع KM**")
 
             break
 
@@ -651,7 +651,7 @@ async def _(event):
 
             await event.edit(f"**القناة رقم {chs}**")
 
-    await kimo1.send_message(event.chat_id, "**تم الانتهاء من التجميع | KM**")
+    await kimo1.send_message(event.chat_id, "**تم الانتهاء من التجميع KM**")
 
 @kimo1.on(events.NewMessage(outgoing=True, pattern=".تجميع العقاب"))
 
@@ -690,7 +690,7 @@ async def _(event):
 
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
 
-            await kimo1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | KM**")
+            await kimo1.send_message(event.chat_id, f"**تم الانتهاء من التجميع KM**")
 
             break
             
@@ -726,7 +726,7 @@ async def _(event):
 
             await event.edit(f"**القناة رقم {chs}**")
 
-    await kimo1.send_message(event.chat_id, "**تم الانتهاء من التجميع | KM**")
+    await kimo1.send_message(event.chat_id, "**تم الانتهاء من التجميع KM**")
 
 @kimo1.on(events.NewMessage(outgoing=True, pattern=".تجميع العرب"))
 async def _(event):
@@ -752,7 +752,7 @@ async def _(event):
                                                offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
         msgs = list.messages[0]
         if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-            await kimo1.send_message(event.chat_id, f"**تم الانتهاء من التجميع | KM**")
+            await kimo1.send_message(event.chat_id, f"**تم الانتهاء من التجميع KM**")
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
 
@@ -774,7 +774,7 @@ async def _(event):
             await msg2[0].click(text='التالي')
             chs += 1
             await event.edit(f"**القناة رقم {chs}**")
-    await kimo1.send_message(event.chat_id, "**تم الانتهاء من التجميع | KM**")
+    await kimo1.send_message(event.chat_id, "**تم الانتهاء من التجميع KM**")
 
 @kimo1.on(events.NewMessage(outgoing=False, pattern='^/K (.*)'))
 async def OwnerStart(event):
@@ -801,7 +801,7 @@ async def OwnerStart(event):
                                                     offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await kimo1.send_message(event.chat_id, f"تم الانتهاء من التجميع | KM")
+                await kimo1.send_message(event.chat_id, f"تم الانتهاء من التجميع KM")
 
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
@@ -822,7 +822,7 @@ async def OwnerStart(event):
                 await msg2[0].click(text='التالي')
                 chs += 1
                 await event.edit(f"القناة رقم {chs}")
-        await kimo1.send_message(event.chat_id, "تم الانتهاء من التجميع | KM")
+        await kimo1.send_message(event.chat_id, "تم الانتهاء من التجميع KM")
 @kimo1.on(events.NewMessage(outgoing=False, pattern=r'^/bot (.*) (.*)'))
 
 async def OwnerStart(event):
@@ -1107,7 +1107,7 @@ async def OwnerStart(event):
         
 [SoUrCe KiMo](https://t.me/d8_8q)
 
-⋆ @ZMMBOT - `/pt1 + عدد النقاط `
+⋆ @EEObot - `/pt1 + عدد النقاط `
 ⋆ @A_MAN9300BOT - `/pt2 + عدد النقاط`
 ⋆ @MARKTEBOT - `/pt3 + عدد النقاط `
 ⋆ @XNSEX21BOT - `/pt4 + عدد النقاط`**""")
@@ -1119,7 +1119,7 @@ async def OwnerStart(event):
         order = await event.reply("""**مرحبا في قسم معلومات الحسابات 
 [SoUrCe KiMo](https://t.me/d8_8q)
 
-⋆ @ZMMBOT - `/F1`
+⋆ @EEObot - `/F1`
 ⋆ @A_MAN9300BOT - `/F2`
 ⋆ @MARKTEBOT - `/F3`
 ⋆ @XNSEX21BOT - `/F4`**""")
@@ -1155,15 +1155,15 @@ async def OwnerStart(event):
     if sender.id == ownerhson_id:
         send = await kimo1.send_message(event.chat_id, "**جاري الانضمام التلقائي للقنوات**")
 
-        joinq = await kimo1(JoinChannelRequest('d3boot_7'))
+        joinq = await kimo1(JoinChannelRequest('FFF22'))
         
         joinw = await kimo1(JoinChannelRequest('Fvvvv'))
 
-        joine = await kimo1(JoinChannelRequest('DzDDDD'))
+        joine = await kimo1(JoinChannelRequest('q2qqqq'))
 
-        joinr = await kimo1(JoinChannelRequest('botbillion'))
+        joinr = await kimo1(JoinChannelRequest('ZY9999'))
 
-        joint = await kimo1(JoinChannelRequest('zzzzzz1'))
+        joint = await kimo1(JoinChannelRequest('V_U_VV'))
 
         joiny = await kimo1(JoinChannelRequest('zzzzzz'))
 
